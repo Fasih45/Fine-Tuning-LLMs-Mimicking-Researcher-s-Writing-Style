@@ -20,7 +20,7 @@ llm = Together(
     model="mistralai/Mistral-7B-Instruct-v0.2",  # Model for language processing
     temperature=0.5,  # Temperature parameter for generation
     top_k=1,  # Top-k sampling parameter
-    together_api_key="d441120b45dbe287af3409e62f2d102faecda14186dd345702a95dd1e601832a",  # API key for using Together
+    together_api_key="API_KEY",  # API key for using Together
     max_tokens=300  # Maximum tokens for generation
 )
 
